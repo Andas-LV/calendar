@@ -1,9 +1,11 @@
-
+"use client"
+import Data from './CarsPage'
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
+  return (
+    <main className="flex min-h-screen bg-[#262626] justify-center items-center">
+        <Data/>
     </main>
   )
 }
